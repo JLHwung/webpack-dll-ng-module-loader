@@ -1,0 +1,6 @@
+*.d.ts
+index.js
+plugin.js
+dist
+node_modules
+.idea

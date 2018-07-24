@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "declaration": false,
+    "module": "commonjs",
+    "lib": ["esnext", "dom"]
+  }
+}

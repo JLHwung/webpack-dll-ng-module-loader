@@ -1,0 +1,11 @@
+{
+  "files": ["integration"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "declaration": true,
+    "module": "commonjs",
+    "allowJs": true,
+    "lib": ["esnext", "dom"],
+    "target": "es2015"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "files": ["src/plugin.ts"],
+  "compilerOptions": {
+    "outDir": ".",
+    "moduleResolution": "node",
+    "declaration": true,
+    "lib": ["esnext"]
+  }
+}
