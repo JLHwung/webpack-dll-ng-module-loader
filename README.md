@@ -34,9 +34,9 @@ const { CheatAngularCompilerResourcePlugin } = require("webpack-dll-ng-module-lo
 
 Then add `CheatAngularCompilerResourcePlugin` __before__ the `AngularCompilerPlugin` on your webpack configuration. Here the order matters since the plugin cheats `AngularCompilerPlugin` to process async resources issued by `webpack-dll-ng-module-loader`.
 
-plugins:
-```
-[
+
+```js
+plugins: [
   new CheatAngularCompilerResourcePlugin(),
   new AngularCompilerPlugin({ /* compiler options */ })
 ]
