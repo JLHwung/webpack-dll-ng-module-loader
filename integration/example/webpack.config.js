@@ -33,7 +33,7 @@ module.exports = {
             "tsConfigPath": path.resolve(__dirname, 'tsconfig.json'),
             "mainPath": path.resolve(__dirname, 'src/main.ts'),
             "sourceMap": true,
-            "skipCodeGeneration": true
+            "skipCodeGeneration": process.env.AOT !== "true"
         }),
         new webpack.DllReferencePlugin({
             manifest: require("./src/dist/vendor/vendor-manifest.json")
