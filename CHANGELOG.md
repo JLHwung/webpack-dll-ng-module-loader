@@ -1,3 +1,9 @@
+#### 1.0.2 (2018-07-25)
+
+##### Bug Fixes
+
+* **package:**  fix incorrect file structure introduced at 1.0.1 (47964976)
+
 #### 1.0.1 (2018-07-25)
 
 ##### Chores
