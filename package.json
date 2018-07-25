@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "ngc -p tsconfig.json && tsc -p tsconfig.plugin.json",
-    "postbuild": "mv src/index.{js,metadata.json,d.ts,ngsummary.json} dist",
+    "postbuild": "mv src/index.* dist && mv dist/index.ts src",
     "pretest": "npm run build && rm -rf integration/example/src/dist && rm -rf node_modules/webpack-dll-ng-module-loader && cp -r dist node_modules/webpack-dll-ng-module-loader",
     "test": "jest",
     "test:ci": "AOT=true npm test && AOT=false npm test",
