@@ -38,8 +38,9 @@ describe("integration", () => {
     );
 
     const entryPoint = "fesm5";
-    const angularSources = sources
-    .filter(path => path.includes("@angular") && path.includes(entryPoint));
+    const angularSources = sources.filter(
+      path => path.includes("@angular") && path.includes(entryPoint)
+    );
     expect(angularSources.length).toBeGreaterThan(0);
     for (const source of angularSources) {
       expect(source).toMatch(/^webpack\:\/\/\/delegated/);
