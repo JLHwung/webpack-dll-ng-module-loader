@@ -1,5 +1,5 @@
 {
-  "files": ["integration"],
+  "files": ["integration/integration.test.ts"],
   "compilerOptions": {
     "moduleResolution": "node",
     "declaration": true,

@@ -8,7 +8,7 @@ module.exports = {
         extensions: [".js", ".jsx"]
     },
     entry: {
-        vendor: ["@angular/core", "@angular/common", "@angular/router", "@angular/platform-browser", "@angular/platform-browser-dynamic", "rxjs", "zone.js"]
+        vendor: ["@angular/core", "@angular/common", "@angular/router", "@angular/platform-browser", "@angular/platform-browser-dynamic", "rxjs", "zone.js", "core-js"]
     },
     output: {
         path: path.join(__dirname, "./src/dist/vendor"),
