@@ -48,7 +48,7 @@ The [`integration/example`](integration/example) folder is a demo of using `webp
 
 You can run the following command to serve the built application
 ```
-npm test && python3 -m http.server 8611
+npm test && cd integration/example && python3 -m http.server 8611
 ```
 
 Then visit `http://localhost:8611` to see the demo.
