@@ -1,3 +1,7 @@
 language: node_js
 node_js: stable
 script: yarn run test:ci
+cache:
+  yarn: true
+  directories:
+    - node_modules

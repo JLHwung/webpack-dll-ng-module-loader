@@ -36,11 +36,15 @@ describe("integration", () => {
         "utf8"
       )
     );
-    expect(
-      sources
-        .filter(path => path.includes("@angular"))
-        .every(path => path.startsWith("webpack:///delegated"))
-    ).toBe(true);
+
+    const entryPoint = "fesm5";
+    const angularSources = sources.filter(
+      path => path.includes("@angular") && path.includes(entryPoint)
+    );
+    expect(angularSources.length).toBeGreaterThan(0);
+    for (const source of angularSources) {
+      expect(source).toMatch(/^webpack\:\/\/\/delegated/);
+    }
   });
   it("@ngtools/webpack should build lazy loaded modules", () => {
     const expectedChunkPath = path.join(__dirname, "./example/src/dist/1.js");
