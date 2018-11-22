@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "automerge": true
+  },
+  "extends": [
+    "config:base"
+  ]
+}
