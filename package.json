@@ -44,6 +44,6 @@
     "typescript": "3.1.6",
     "webpack": "4.28.4",
     "webpack-cli": "3.2.1",
-    "zone.js": "0.8.27"
+    "zone.js": "0.8.28"
   }
 }
