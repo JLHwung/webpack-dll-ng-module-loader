@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@angular-devkit/core@7.3.0":
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.3.0.tgz#fc272e39b4c307833e9a7db77007418a246f5410"
-  integrity sha512-b0qtAUpgqLpWY8W6vWRv1aj6bXkZCP1rvywl8i8TbGMY67CWRcy5J3fNAMmjiZS+LJixFlIXYf4iOydglyJMfg==
+"@angular-devkit/core@7.3.1":
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.3.1.tgz#d92f6545796579cabdcfc29579a2c977f7a96c6c"
+  integrity sha512-56XDWWfIzOAkEk69lBLgmCYybPUA4yjunhmMlCk7vVdb7gbQUyzNjFD04Uj0GjlejatAQ5F76tRwygD9C+3RXQ==
   dependencies:
     ajv "6.7.0"
     chokidar "2.0.4"
@@ -298,12 +298,12 @@
     log-update "^2.3.0"
     strip-ansi "^3.0.1"
 
-"@ngtools/webpack@7.3.0":
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-7.3.0.tgz#ed6bfb0c7c02db2fdfaf0fdecd4c2b1bb80af7a5"
-  integrity sha512-U/By0Jlwy7nYwrGNtFirTg1aAsEHBL/9DhfFxPI0iu27FWiMttROuN6hmKbbnOmpbiYAVl5qTy3WXPXUIJjG1A==
+"@ngtools/webpack@7.3.1":
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-7.3.1.tgz#4ff68007fd68fdc26f22e19115182f96fb6f7335"
+  integrity sha512-EGQRjgDf5XP+Fm1MdZNRFiPd9e1vhl11BhjkwqkAsewic4eoz6fqXfj/Osz1hQy8xU+2dPPf/byQ/+nY3E02Zg==
   dependencies:
-    "@angular-devkit/core" "7.3.0"
+    "@angular-devkit/core" "7.3.1"
     enhanced-resolve "4.1.0"
     rxjs "6.3.3"
     tree-kill "1.2.1"
