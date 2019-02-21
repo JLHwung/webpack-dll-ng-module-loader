@@ -42,7 +42,7 @@
     "prettier": "1.16.4",
     "rxjs": "6.4.0",
     "ts-jest": "24.0.0",
-    "typescript": "3.2.4",
+    "typescript": "3.3.3333",
     "webpack": "4.29.5",
     "webpack-cli": "3.2.3",
     "zone.js": "0.8.29"
