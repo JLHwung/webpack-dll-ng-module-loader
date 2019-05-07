@@ -33,7 +33,7 @@
     "@angular/platform-browser-dynamic": "7.2.14",
     "@angular/router": "7.2.14",
     "@babel/core": "7.4.4",
-    "@ngtools/webpack": "7.3.8",
+    "@ngtools/webpack": "7.3.9",
     "@types/jest": "24.0.12",
     "core-js": "2.6.5",
     "husky": "2.2.0",

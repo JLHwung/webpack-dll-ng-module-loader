@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@angular-devkit/core@7.3.8":
-  version "7.3.8"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.3.8.tgz#702b0944a69c71cce3a1492e0d62de18df22a993"
-  integrity sha512-3X9uzaZXFpm5o2TSzhD6wEOtVU32CgeytKjD1Scxj+uMMVo48SWLlKiFh312T+smI9ko7tOT8VqxglwYkWosgg==
+"@angular-devkit/core@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.3.9.tgz#bef2aaa0be7219c546fb99ea0ba9dd3a6dcd288a"
+  integrity sha512-SaxD+nKFW3iCBKsxNR7+66J30EexW/y7tm8m5AvUH+GwSAgIj0ZYmRUzFEPggcaLVA4WnE/YWqIXZMJW5dT7gw==
   dependencies:
     ajv "6.9.1"
     chokidar "2.0.4"
@@ -573,12 +573,12 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@ngtools/webpack@7.3.8":
-  version "7.3.8"
-  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-7.3.8.tgz#c8761d0f6959682e03032f8d3de718d1f811410e"
-  integrity sha512-gfjSKz+F/2T4tZHpnQ1XqelKP/CIfI87XdoHsOI53ceTUrAkVKsOb3ULmEfkcdsdQZ/HhmCiLivcutHcW8xkhQ==
+"@ngtools/webpack@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-7.3.9.tgz#db115dba8cc0886d8d822723be4119d3849fb4e3"
+  integrity sha512-+ROpqfCXLdQwfP+UNDLk4p959ZrocpStkdd2Iy9CeOJ8yDkityqpstTwQC3oHzzu/95BiyZ0hrHbM6AsPPIvJg==
   dependencies:
-    "@angular-devkit/core" "7.3.8"
+    "@angular-devkit/core" "7.3.9"
     enhanced-resolve "4.1.0"
     rxjs "6.3.3"
     tree-kill "1.2.1"
