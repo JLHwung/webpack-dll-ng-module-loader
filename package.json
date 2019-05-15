@@ -38,7 +38,7 @@
     "core-js": "2.6.5",
     "husky": "2.3.0",
     "jest": "24.8.0",
-    "lint-staged": "8.1.6",
+    "lint-staged": "8.1.7",
     "prettier": "1.17.1",
     "rxjs": "6.5.2",
     "ts-jest": "24.0.2",
