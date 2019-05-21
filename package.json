@@ -35,7 +35,7 @@
     "@babel/core": "7.4.5",
     "@ngtools/webpack": "7.3.9",
     "@types/jest": "24.0.13",
-    "core-js": "2.6.5",
+    "core-js": "2.6.8",
     "husky": "2.3.0",
     "jest": "24.8.0",
     "lint-staged": "8.1.7",
