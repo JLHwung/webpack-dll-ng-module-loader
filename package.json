@@ -32,7 +32,7 @@
     "@angular/platform-browser": "7.2.15",
     "@angular/platform-browser-dynamic": "7.2.15",
     "@angular/router": "7.2.15",
-    "@babel/core": "7.4.4",
+    "@babel/core": "7.4.5",
     "@ngtools/webpack": "7.3.9",
     "@types/jest": "24.0.13",
     "core-js": "2.6.5",
