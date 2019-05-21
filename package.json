@@ -10,6 +10,7 @@
   "scripts": {
     "build": "ngc -p tsconfig.json && tsc -p tsconfig.plugin.json",
     "postbuild": "mv src/index.* dist && mv dist/index.ts src",
+    "prepare": "cd integration/ngx-build-plus && npm install",
     "pretest": "npm run build && ./scripts/prepare-integration.sh",
     "test": "jest",
     "test:ci": "AOT=true npm test && AOT=false npm test",
