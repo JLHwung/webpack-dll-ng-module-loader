@@ -1,6 +1,6 @@
 # Example of Integration to `ngx-build-plus`
 
-## Usage
+## A step-by-step guid of integration to `ngx-build-plus`
 
 1. Install `ngx-build-plus`
 
@@ -38,3 +38,16 @@ Note that as is the requirement of webpack dll, the dll vendor should come befor
 ```
 
 1. Run `npm start` or `npm run build` to enjoy the building speed improvements brought by webpack dll. 🍻
+
+## Example usage
+
+The whole [`integration/ngx-build-plus`](.) is an example project show asing how to use this library with `ngx-build-plus`.
+You can run the project by
+
+```
+npm install
+npm run build:dll
+npm run start
+```
+
+And visit the demo website on http://localhost:4200. The funtionality of this demo is identical to the plain version [example](../example).
