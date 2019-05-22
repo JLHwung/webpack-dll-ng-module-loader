@@ -1,6 +1,6 @@
 {
   "name": "webpack-dll-ng-module-loader",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Cheat AngularCompilerPlugin to work around https://github.com/angular/angular-cli/issues/4565",
   "main": "index.js",
   "license": "CC0-1.0",
