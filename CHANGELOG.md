@@ -1,3 +1,13 @@
+### 1.2.0 (2019-05-22)
+
+##### New Features
+
+- ngx-build-plus integration (#156) (c8bb81bddf05959a14a767a1becd56264bd22ac7)
+
+##### Chores
+
+- **deps** routine dependencies updates
+
 ### 1.1.0 (2018-11-05)
 
 ##### New Features
