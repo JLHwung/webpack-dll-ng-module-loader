@@ -28,8 +28,15 @@ Then provide the `NgModuleFactoryLoader` using `WebpackDllNgModuleLoader`
 { provide: NgModuleFactoryLoader, useClass: WebpackDllNgModuleLoader }
 ```
 
-### 2. Use `CheatAngularCompilerResourcePlugin` on your webpack configuration
+### 2. Webpack Configuration
 
+If you are hand crafting the webpack configuration of the whole Angular Project, please refer to 2.1 for how to get it works.
+
+If you are using @angular/cli, it is [recommended](https://github.com/angular/angular-cli/issues/10618#issuecomment-425506339) to install [`ngx-build-plus`](https://github.com/manfredsteyer/ngx-build-plus) and skip the 2.1 section and see [ngx-build-plus integration guide](integration/ngx-build-plus/README.md) for a step-by-step integration guide to `ngx-build-plus`.
+
+#### 2.1 Use `CheatAngularCompilerResourcePlugin` on your webpack configuration
+
+This section is for those who have ejected Angular CLI configuration or built the webpack configuration from the ground.
 Import `CheatAngularCompilerResourcePlugin` in the webpack configuration `webpack.config.js`.
 
 ```js

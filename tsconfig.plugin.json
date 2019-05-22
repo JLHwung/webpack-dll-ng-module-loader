@@ -1,5 +1,5 @@
 {
-  "files": ["src/plugin.ts"],
+  "files": ["src/plugin.ts", "src/ngx-build-plus.ts"],
   "compilerOptions": {
     "outDir": "dist",
     "moduleResolution": "node",
