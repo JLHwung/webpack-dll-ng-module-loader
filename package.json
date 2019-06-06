@@ -41,7 +41,7 @@
     "husky": "2.4.0",
     "jest": "24.8.0",
     "lint-staged": "8.2.0",
-    "prettier": "1.17.1",
+    "prettier": "1.18.0",
     "rxjs": "6.5.2",
     "ts-jest": "24.0.2",
     "typescript": "3.2.4",
