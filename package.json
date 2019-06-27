@@ -38,7 +38,7 @@
     "@ngtools/webpack": "7.3.9",
     "@types/jest": "24.0.15",
     "core-js": "2.6.5",
-    "husky": "2.6.0",
+    "husky": "2.7.0",
     "jest": "24.8.0",
     "lint-staged": "8.2.1",
     "prettier": "1.18.2",
