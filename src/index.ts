@@ -7,7 +7,8 @@ import {
   Optional,
   NgModuleFactory,
   NgModuleFactoryLoader,
-  Compiler
+  Compiler,
+  ɵivyEnabled as ivyEnabled
 } from "@angular/core";
 
 const _SEPARATOR = "#";
@@ -56,8 +57,10 @@ export class WebpackDllNgModuleLoader implements NgModuleFactoryLoader {
   }
 
   load(path: string): Promise<NgModuleFactory<any>> {
-    const offlineMode = this._compiler instanceof Compiler;
-    return offlineMode ? this.loadFactory(path) : this.loadAndCompile(path);
+    const legacyOfflineMode = !ivyEnabled && this._compiler instanceof Compiler;
+    return legacyOfflineMode
+      ? this.loadFactory(path)
+      : this.loadAndCompile(path);
   }
 
   private loadAndCompile(path: string): Promise<NgModuleFactory<any>> {
@@ -80,9 +83,9 @@ export class WebpackDllNgModuleLoader implements NgModuleFactoryLoader {
       factoryClassSuffix = "";
     }
 
-    return import(this._config.factoryPathPrefix +
-      module +
-      this._config.factoryPathSuffix)
+    return import(
+      this._config.factoryPathPrefix + module + this._config.factoryPathSuffix
+    )
       .then((module: any) => module[exportName + factoryClassSuffix])
       .then((factory: any) => checkNotEmpty(factory, module, exportName));
   }
