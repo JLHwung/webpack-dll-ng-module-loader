@@ -19,6 +19,7 @@ yarn add webpack-dll-ng-module-loader
 Import `WebpackDllNgModuleLoader` in the root module `app.module.ts`:
 
 ```ts
+import { NgModuleFactoryLoader } from "@angular/core";
 import { WebpackDllNgModuleLoader } from "webpack-dll-ng-module-loader";
 ```
 
