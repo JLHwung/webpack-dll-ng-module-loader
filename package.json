@@ -45,7 +45,7 @@
     "rxjs": "6.5.2",
     "ts-jest": "24.1.0",
     "typescript": "3.2.4",
-    "webpack": "4.40.1",
+    "webpack": "4.40.2",
     "webpack-cli": "3.3.8",
     "zone.js": "0.10.2"
   }
