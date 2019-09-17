@@ -46,7 +46,7 @@
     "ts-jest": "24.1.0",
     "typescript": "3.2.4",
     "webpack": "4.40.2",
-    "webpack-cli": "3.3.8",
+    "webpack-cli": "3.3.9",
     "zone.js": "0.10.2"
   }
 }
